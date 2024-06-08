@@ -3,3 +3,5 @@ function greetings(input) {
 }
 
 greetings(["dido"]);
+
+module.exports = { greetings };
