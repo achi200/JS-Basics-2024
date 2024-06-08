@@ -1,4 +1,4 @@
-function numbersFromOneToTen() { // for loop
+function numbersFromOneToTen() { 
     console.log(1);
     console.log(2);
     console.log(3);
@@ -9,6 +9,11 @@ function numbersFromOneToTen() { // for loop
     console.log(8);
     console.log(9);
     console.log(10);
+}
+
+numbersFromOneToTen();
+
+module.exports = { numbersFromOneToTen };
 }
 
 numbersFromOneToTen();
